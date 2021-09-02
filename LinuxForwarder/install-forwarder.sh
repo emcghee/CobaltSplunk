@@ -9,7 +9,7 @@ SERVER="$1"
 PATH="$2"
 HOSTNAME="$3"
 
-/usr/bin/sudo /usr/bin/dpkg -i splunkforwarder-8.2.1-ddff1c41e5cf-linux-2.6-amd64.deb
+# /usr/bin/sudo /usr/bin/dpkg -i splunkforwarder-8.2.1-ddff1c41e5cf-linux-2.6-amd64.deb
 
 /usr/bin/sudo /opt/splunkforwarder/bin/splunk set servername $HOSTNAME
 /usr/bin/sudo /opt/splunkforwarder/bin/splunk set default-hostname $HOSTNAME
